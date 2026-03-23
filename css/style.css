@@ -131,7 +131,7 @@ a{
     
     .mySearh button {
         padding: 6px 12px;
-        font-size: 14px;
+        font-size: 12px;
         margin: 1px;
     }
     
@@ -225,4 +225,21 @@ a{
         width: 10%;
         height: avto;
     }
+}
+
+/* личный кабинет  */
+
+@media (max-width: 990px) {
+    .avatar{
+        max-width: 45%;
+    }
+}
+@media (max-width: 990px) {
+    .avatar{
+        max-width: 30%;
+    }
+}
+
+.edit{
+    background-color: rgba(60, 47, 47, 1);
 }
